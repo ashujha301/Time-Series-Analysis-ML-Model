@@ -10,12 +10,17 @@ Performed EDA (Exploratory Data Analysis) on the data set
 performed Outlier Elimination. 
 Used LSTM and XGboost for the comparison
 
-General Issues with Traditional RNN's:-
+*General Issues with Traditional RNN's:-*
+
 • Suffer from short memory due to vanishing gradients they forget initial information. 
+
 • LSTM  tackle short term memory problem. They are able to regulate flow of information.
 
-Overall Verdict:-
+*Overall Verdict:-*
+
 •	XGBoost is faster than the LSTM method with equal precision in the correct tuning parameters. The drawback is its feature-importance is not so accuracy as LSTM+SHAP combination.
+
 •	LSTM works better if we are dealing with huge amount of data and enough training data is available.
+
 •	ARIMA requires a series of parameters (p,q,d) which must be calculated based on data, while LSTM does not require setting such parameters.
 
