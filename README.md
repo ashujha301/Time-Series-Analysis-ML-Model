@@ -6,9 +6,11 @@ Data Dimensions:
 • 5001 Attributes 
 • 4 Features ( Date , Gold price , Crude Oil price , Natural Gas price)
 
-Performed EDA (Exploratory Data Analysis) on the data set 
+Performed EDA (Exploratory Data Analysis) on the data set. 
+
 performed Outlier Elimination. 
-Used LSTM and XGboost for the comparison
+
+Used LSTM and XGboost for the comparison.
 
 *General Issues with Traditional RNN's:-*
 
